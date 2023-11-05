@@ -1,0 +1,63 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+
+</script>
+<style>
+.btn {
+width: 70px;
+height: 30px;
+margin: 5px;
+padding: 0px;
+border:none;
+border-radius:10px;
+background:lightblue;
+}
+
+#addList {
+border-color: rgb(183, 252, 252);
+}
+
+.container{
+padding:20px;
+text-align:center;
+color:black;
+height:500px;
+width:500px;
+background:liner-gradient(120deg,blue,pink);
+border:none;
+border-radius:50px;
+background:linear-gradient(120deg,blue,pink);
+}
+</style>
+
+<script>
+$(document).ready(function() {
+$('.btn').click(function() {
+var content = $('#addList').val();
+var fixingContent ='<li>' + content + '</li>';
+$('.List').append(fixingContent);
+})
+})
+</script>
+
+</head>
+<body>
+
+<div class="container">
+
+<h3 class="head"> Type List to Add</h3>
+<input type="text" id="addList">
+<input type="button" name="add"
+class="btn" value="Add">
+</button>
+
+</div>
+
+<div class="addTask">
+<ol class="List">
+</ol>
+</div>
+
+</body>
+</html>

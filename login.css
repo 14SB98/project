@@ -1,0 +1,49 @@
+body{
+background:linear-gradient(120deg,blue,pink);
+background-repeat: no-repeat;
+background-size: cover;
+height:100vh;
+font-family: 'Roboto Mono', monospace;
+}
+
+
+h2{
+color:tomato;
+text-align:center;
+font-size:50px;
+}
+
+.container{
+text-align:center;
+border:none;
+border-radius:20px;
+width:400px;
+height:450px;
+background:black;
+position :absolute;
+transform:translate(-50%, -50%);
+top:50%;
+left:50%;
+}
+
+input{
+margin:5px;
+padding:10px;
+border-radius:10px;
+border:none;
+border-bottom:5px solid orange;
+color:white;
+background:none;
+font-size:20px;
+cursor: auto;
+}
+
+.pass{
+margin-left:-20px;
+}
+
+.checkbox{
+height:20px;
+width:20px;
+margin-left:-140px;
+}

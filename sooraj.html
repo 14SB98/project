@@ -1,0 +1,192 @@
+<html>
+  <head>
+
+    <title>sooraj cafe</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pro.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    
+     <style>
+     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+     </style>
+
+  </head>
+
+  <body>
+ 
+    <!--Navbar-->
+    <div class="navbar">
+      <div class="w3-top w3-hide-small">
+        <div class="w3-bar" id="myNavbar">
+          <a href="#home" class="w3-bar-item w3-button">HOME</a>
+          <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+          <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+          <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+          <a href="#LOCATE - US" class="w3-bar-item w3-button">LOCATE - US</a>
+          <a href="#RESERVATION" class="w3-bar-item w3-button">RESERVATION</a>
+        </div>
+      </div>
+    </div>
+   
+
+    <!--Header with image-->
+    <div class="w3-container w3-padding-64 w3-xlarge" id="header">
+      <header class="bgimg w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-middle w3-center">
+          <span class="w3-text-white w3-hide-small" style="font-size:100px"><b>Cafe<br>Of<br>Coffee<br>Cups</b></span>
+        </div>
+      </header>
+    </div>
+   
+    
+    <!-- Menu Container -->
+
+<div class="About w3-container w3-padding-64 w3-xlarge" id="Menu">
+<div class="dropdown">
+  <button class="dropbtn"> Cafe-Menu </button>
+  <div class="dropdown-content">
+  <a href="menu.html">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+</div>
+
+    <!--carousel slides-->
+    
+
+    
+    <!-- About Container -->
+    <div class="About w3-container w3-padding-64 w3-xlarge" id="about">
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px;color:green"><b><u>About</u></b></h1>
+        <pre>
+          The Cafe Restaurant was founded in India by <b><u>Mr. Sooraj Bhosale</u></b> 
+          in <b><u>A. m. College, Pune</u></b>, 
+          with ispiration of friends and teachers. 
+          It is the Dream of my Father to Startup a self Business in the Pune. 
+          And finally it's  Happen in Reality.
+          And This Whole Credit is goes to the my Father...
+        </pre>
+        <h2>The Chef -Mr. Sandeep</h2>
+        <img src="https://wallpapercave.com/uwp/uwp552511.jpeg" style="width:100%" class="w3-circle" alt="interiors">
+        <h2>We are proud of our interiors.</h2>
+        <img src="https://wallpapercave.com/wp/wp1874159.jpg" style="width:100%" class="w3-circle" alt="Restaurant">
+        <h1><b>Opening Hours</b></h1>
+
+          
+        <div class="w3-row">
+          <div class="w3-col s6">
+                <strong><p>Mon & Sat OPEN</p>
+                <p>Wednesday 10.00AM - 09.00PM</p>
+                <p>Thursday 10:00AM - 09:00PM</p></strong>
+          </div>
+           
+          <div class="w3-col s6">
+              <strong><p>Friday 10:00AM - 12:00PM</p>
+              <p>Saturday 10:00AM - 11:00PM</p>
+              <p>Sunday Closed</p></strong>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  
+    <!-- Image of location/map -->
+    <div class="cafe_location" id="LOCATE - US"> 
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"><b><u>LOCATE - US</u></b></h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15134.274068475985!2d73.94772689787418!3d18.503193847408944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c348f842d88f%3A0x15ad4c2219ae6462!2sCafe%20Katta!5e0!3m2!1sen!2sin!4v1652416615161!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+    </div>
+
+  
+    <!-- Contact -->
+    <div class="contact w3-container w3-padding-64  w3-grayscale-min" id="contact">
+      <div class="w3-content">
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+        <p>Find us at some address at above location us at <b>+91 98765-43210</b></p>
+        <p>We offer full-service catering for any event, large or small. Weunderstand your needs and we will cater the food to satisfy the biggerst criteria of them all, both lookand taste.</span></p>
+      </div>
+    </div> 
+
+    
+    <!--reservation section-->
+    <div class="reservation" id="RESERVATION">
+      <div class="w3-content"> 
+        <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"><b><u>RESERVATION</u></b></h1>
+        <p class="w3-xxlarge"><strong>Reserve a table</strong></p>
+      
+     
+ 
+          <form action="con.php" target="_blank" >
+      
+      <input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"><br><br>
+      <input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"><br><br>
+      <input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date"><br><br>
+      <input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"><br><br>
+      <button class="w3-button w3-light-gray w3-block" type="submit">SEND MESSAGE</button>
+          
+          </form>
+      </div>
+    </div>
+
+   
+    <!--Footer Section-->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <h2>Footer section</h2>
+
+          <div class="footer-col">
+            <h4> OPENING-HOURS </h4>
+            <ul>
+                <li><a href="#">Mon & Sat OPEN</a></li>
+                <li><a href="#">Wednesday 10.00AM - 09.00PM</a></li>
+                <li><a href="#">Thursday 10:00AM - 09:00PM</a></li>
+                <li><a href="#">Friday 10:00AM - 12:00PM</a></li>
+                <li><a href="#">Saturday 10:00AM - 11:00PM</a></li>
+                <li><a href="#">Sunday Closed</a>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4> MENU </h4>
+            <ul>
+              <li><a href="#">cold coffe</a></li>
+              <li><a href="#">coffe with crish</a></li>
+              <li><a href="#">burger</a></li>
+              <li><a href="#">pizza</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4> CONTACT </h4>
+            
+            <div class="social-links">
+                
+              <a href="#">Mail-Id: abc@gmail.com</a></li>
+              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91 98765-43210</li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              
+            </div> 
+          
+          </div>
+
+          <div class="footer-col">
+            <h4> LOCATION </h4>
+            
+            <li>Site 1: Hadapsar,pune</li>
+            <li>Site 2: Manjari,pune</li>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
